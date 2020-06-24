@@ -15,10 +15,5 @@ public class AppConfig {
 		
 		return new kullanicilar();
 	}
-	
-	@Bean
-	public kullanicilardatabase kullanicilardatabase() {
-		return new kullanicilardatabase();
-	}
 
 }

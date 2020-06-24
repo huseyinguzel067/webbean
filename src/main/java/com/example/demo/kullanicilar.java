@@ -6,8 +6,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Table;
 
-@Table
-@Entity(name = "kullanicilar")
+
 public class kullanicilar {
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	public void getAdi() {

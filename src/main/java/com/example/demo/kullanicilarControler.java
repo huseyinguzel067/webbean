@@ -6,7 +6,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 import org.springframework.data.jpa.repository.Query;
 
 public class kullanicilarControler {
-	static kullanicilarRepostory a;
+
 
 	
 	public static void main(String[] args) {
@@ -15,10 +15,8 @@ public class kullanicilarControler {
 		kullanicilar.setAdi("huseyin");
 		kullanicilar.getAdi();
 		
-		
-		kullanicilardatabase kullanicilardatabase=ctx.getBean(kullanicilardatabase.class);
-		kullanicilardatabase.getAdi();
-		
+	
+	
 		
 	}
 }
